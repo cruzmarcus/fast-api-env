@@ -2,3 +2,4 @@ __py_cache__
 fast-api-env
 .S
 .blog/_py_cache__
+.blog/__pycache__/schemas.cpython-38.pyc
