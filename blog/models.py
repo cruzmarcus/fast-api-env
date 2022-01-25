@@ -11,6 +11,7 @@ class Blog(Base):
     title = Column(String)
     body = Column(String)
     user_id = Column(Integer, ForeignKey("users.id"))
+
     creator = relationship("User", back_populates="blogs")
 
     def __repr__(self):
